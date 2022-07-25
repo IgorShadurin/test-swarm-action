@@ -9,6 +9,9 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: zzzz
+        run: |
+          ls -l
       - name: Upload
         id: swarm-upload
         uses: ethersphere/swarm-actions/upload-dir@latest
