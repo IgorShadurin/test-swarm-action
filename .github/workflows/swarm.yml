@@ -14,7 +14,7 @@ jobs:
         uses: ethersphere/swarm-actions/upload-dir@latest
         with:
           bee-url: https://gateway.fairdatasociety.org/proxy/
-          dir: ./
+          dir: .
           index-document: index.html
 
       - name: print references
